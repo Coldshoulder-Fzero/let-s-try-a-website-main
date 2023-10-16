@@ -2,23 +2,37 @@
 <html lang="en">
 
 <head>
+    
     <style>
         /* Add styles for the navigation bar */
-        .topnav {
-            background-color: #333;
+                .topnav {
+            background-color: #F2D638;
             overflow: hidden;
             display: flex;
-            justify-content: center;
+            justify-content: right; /* Change this to justify-content: flex-end; */
             align-items: center;
+            font-family: 'Open Sans', sans-serif; /* Use Open Sans font with fallback to sans-serif */
+                    
         }
 
+        .name {
+           color: #010600;
+           padding:  16px 12px;
+           font-size: 20px;
+            margin-right: auto;
+            font-family: 'Roboto', sans-serif; /* Use Open Sans font with fallback to sans-serif */
+            font-weight: bold; /* Set text to bold */
+            letter-spacing: 1.5;
+
+        }
         .topnav a {
             float: left;
-            color: #f2f2f2;
+            color: #010600;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .topnav a:hover {
@@ -30,11 +44,21 @@
             background-color: #04AA6D;
             color: white;
         }
+        .name{
+            overflow: hidden;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="topnav">
+        <div class="name"> Joseph Gabrie</div>
+      
+
+      
         <a class="home" href="home.html"> Home</a>
         <a class="Resume" href="Resume.html"> Resume</a>
         <a class="Projects" href="Projects.html"> Projects</a>
